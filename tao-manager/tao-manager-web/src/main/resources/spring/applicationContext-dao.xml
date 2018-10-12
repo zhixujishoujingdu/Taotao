@@ -34,6 +34,11 @@
         <property name="dataSource" ref="dataSource"/>
         <!--mybatis全局配置文件-->
         <property name="configLocation" value="classpath:mybatis/sqlMapConfig.xml"/>
+        <property name="mapperLocations">
+            <list>
+                <value>classpath:mappers/*.xml</value>
+            </list>
+        </property>
     </bean>
 
     <!--自动扫描mybatis映射文件和接口的包 -->
