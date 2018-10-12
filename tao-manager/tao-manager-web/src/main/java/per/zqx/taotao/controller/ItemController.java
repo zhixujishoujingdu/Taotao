@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import per.zqx.taotao.bean.ResultBean;
 import per.zqx.taotao.service.IItemService;
 
+/**
+ * 商品列表控制类
+ */
 @Controller
 @RequestMapping("/item")
 public class ItemController {
