@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tao-common" />
-        <module name="tao-manager-mapper" />
+        <module name="tao-manager-dao" />
         <module name="tao-manager-pojo" />
         <module name="tao-manager-service" />
         <module name="tao-manager-web" />
@@ -17,6 +17,7 @@
       <module name="pagehelper" target="1.7" />
       <module name="tao-common" target="1.7" />
       <module name="tao-manager" target="1.7" />
+      <module name="tao-manager-dao" target="1.7" />
       <module name="tao-manager-mapper" target="1.7" />
       <module name="tao-manager-pojo" target="1.7" />
       <module name="tao-manager-service" target="1.7" />
