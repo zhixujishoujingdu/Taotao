@@ -37,6 +37,7 @@
     <orderEntry type="module" module-name="tao-manager-service" />
     <orderEntry type="library" name="Maven: per.zqx.taotao:tao-manager-mapper:1.0-SNAPSHOT" level="project" />
     <orderEntry type="module" module-name="tao-manager-pojo" />
+    <orderEntry type="module" module-name="tao-manager-mapper" />
     <orderEntry type="library" name="Maven: jstl:jstl:1.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:jsp-api:2.0" level="project" />
