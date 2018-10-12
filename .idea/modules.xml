@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tao-common/tao-common.iml" filepath="$PROJECT_DIR$/tao-common/tao-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao-manager/tao-manager.iml" filepath="$PROJECT_DIR$/tao-manager/tao-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao-manager/tao-manager-mapper/tao-manager-mapper.iml" filepath="$PROJECT_DIR$/tao-manager/tao-manager-mapper/tao-manager-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao-manager/tao-manager-pojo/tao-manager-pojo.iml" filepath="$PROJECT_DIR$/tao-manager/tao-manager-pojo/tao-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao-manager/tao-manager-service/tao-manager-service.iml" filepath="$PROJECT_DIR$/tao-manager/tao-manager-service/tao-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao-manager/tao-manager-web/tao-manager-web.iml" filepath="$PROJECT_DIR$/tao-manager/tao-manager-web/tao-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao-parent/tao-parent.iml" filepath="$PROJECT_DIR$/tao-parent/tao-parent.iml" />
+    </modules>
+  </component>
+</project>

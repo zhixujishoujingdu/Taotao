@@ -18,6 +18,7 @@ public class ItemController {
     @ResponseBody
     public ResultBean ItemList(Integer page, Integer rows) {
         ResultBean result = service.listItem(page, rows);
+        System.out.println(result.toString());
         return result;
     }
 }

@@ -35,7 +35,8 @@ public class ItemServiceImpl implements IItemService {
         result.setRows(list);
         //获取总记录
         PageInfo<TbItem> pageInfo = new PageInfo<>(list);
-       result.setTotalPage(pageInfo.getTotal());
+        result.setTotalPage(pageInfo.getTotal());
+//        System.out.println(result.getRows()+","+result.getTotalPage());
         //返回前端要求的格式
         return result;
     }

@@ -4,23 +4,15 @@ import java.util.List;
 
 
 public class ResultBean{
-    private Long totalPage;
+    private Long total;
     private List<?> rows;
 
-    public ResultBean() {
-    }
-
-    public ResultBean(Long totalPage, List<?> rows) {
-        this.totalPage = totalPage;
-        this.rows = rows;
-    }
-
     public Long getTotalPage() {
-        return totalPage;
+        return total;
     }
 
-    public void setTotalPage(Long totalPage) {
-        this.totalPage = totalPage;
+    public void setTotalPage(Long total) {
+        this.total = total;
     }
 
     public List<?> getRows() {
