@@ -3,7 +3,7 @@ package per.zqx.taotao.bean;
 import java.util.List;
 
 
-public class ResultBean{
+public class EUDataGridResult {
     private Long total;
     private List<?> rows;
 

@@ -41,6 +41,11 @@
         <solrj.version>4.10.3</solrj.version>
     </properties>
 
+    <!--dependencyManagement：
+            1.统一管理依赖和版本号
+            2.子工程不会使用所有定义的依赖
+            3.子工程使用依赖不需要指定版本号
+            -->
     <dependencyManagement>
         <dependencies>
             <!-- 时间操作组件 -->

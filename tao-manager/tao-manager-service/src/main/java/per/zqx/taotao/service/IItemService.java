@@ -1,10 +1,7 @@
 package per.zqx.taotao.service;
 
-import per.zqx.taotao.bean.ResultBean;
-import per.zqx.taotao.pojo.TbItem;
-
-import java.util.List;
+import per.zqx.taotao.bean.EUDataGridResult;
 
 public interface IItemService {
-    ResultBean listItem(int page,int rows);
+    EUDataGridResult getItemList(int page, int rows);
 }

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="tao-common" />
         <module name="tao-manager-dao" />
+        <module name="tao-manager-mapper" />
         <module name="tao-manager-pojo" />
         <module name="tao-manager-service" />
         <module name="tao-manager-web" />
